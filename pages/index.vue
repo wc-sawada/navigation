@@ -1,9 +1,5 @@
 <template>
-  <Tutorial/>
+  <main>
+    〜ココに書いていく〜
+  </main>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
