@@ -14,6 +14,7 @@
     width: 60%;
     display: flex;
     text-align: center;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -47,44 +48,19 @@ p {
     position: relative;
     height: 672px;
     width: 1280px;
+    background-image: url(../images/index_main.png);
     margin: 0 auto;
 }
 
-.main-panel div {
-    background-color: #2e71f1;
-    opacity: 50%;
-    height: 672px;
+.main-contents {
     position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-}
-
-.main-contents {
     height: 542px;
     width: 954px;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
-}
-
-#absolute-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.z-index-1 {
-    z-index: -1;
-}
-
-.z-index-2 {
-    z-index: -2;
-}
-
-.z-index1 {
-    z-index: 1;
-}
-
-.z-index2 {
-    z-index: 2;
+    margin: auto;
 }
