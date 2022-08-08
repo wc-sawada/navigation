@@ -1,6 +1,5 @@
 <template>
   <div>
-    ～ヘッダー記述～
     <div class="header">
       <img src = "~assets/images/index_header.png" alt = "">
     <div class="header-cont">
