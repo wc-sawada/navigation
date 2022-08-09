@@ -1,15 +1,18 @@
 <template>
   <div>
     <div class="header">
-      <img src = "~assets/images/index_header.png" alt = "">
-    <div class="header-cont">
-      <p>なぜAI</p>
-      <p>仕事内容</p>
-      <p>必要知識</p>
-      <p>質問</p>
-    </div>
+      <h1><a href="#"><img src="~assets/images/index_header.png" alt="">
+        </a></h1>
+      <nav class="header-cont">
+        <ul>
+          <li><a href="#why_ai">なぜAI</a></li>
+          <li><a href="#work">仕事内容</a></li>
+          <li><a href="#skills">必要知識</a></li>
+          <li><a href="#faq">質問</a></li>
+        </ul>
+      </nav>
     </div>
     <Nuxt />
-    ～フッター記述～
+    <h2>reon kunishi.All rights reserved.</h2>
   </div>
 </template>

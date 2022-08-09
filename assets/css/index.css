@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: flex;
     width: 1280px;
@@ -6,61 +10,101 @@
 }
 
 .header img {
-    width: 40%;
+    width: 512px;
     display: flex;
 }
 
 .header-cont {
-    width: 60%;
+    width: 768px;
     display: flex;
     text-align: center;
     margin: auto;
     justify-content: space-between;
 }
 
-.header p {
+.header ul {
+    width: 768px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
-p {
+.header li {
+    padding: 10p;
     color: black;
     font-size: 24px;
 }
 
-.main-text24 {
-    color: white;
-    font-size: 24px;
-}
-
-.main-text100 {
+.main-text {
     color: white;
     font-size: 100px;
-}
-
-.main-text-area {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    /* 追加 */
+    align-items: center;
     flex-direction: column;
 }
 
+.main-text-sub {
+    display: block;
+    font-size: 24px;
+}
+
+
 .main-panel-out {
-    position: relative;
     height: 672px;
     width: 1280px;
     background-image: url(../images/index_main.png);
     margin: 0 auto;
+    display: flex;
+    /* 追加 */
+    justify-content: center;
+    align-items: center;
 }
 
 .main-contents {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     height: 542px;
     width: 954px;
     display: flex;
     justify-content: space-around;
     margin: auto;
+}
+
+.contents_title {
+    background-color: #FFD952;
+    width: 566px;
+    height: 73px;
+    margin: 0 auto;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+
+.contents_title h2 {
+    height: 73px;
+    font-size: 36px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#why_id section {
+    background-color: white;
+}
+
+#work section {
+    background-color: #c43c3c;
+}
+
+#skills section {
+    background-color: white;
+}
+
+#faq section {
+    background-color: #F8F8F8;
 }
