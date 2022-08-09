@@ -13,6 +13,8 @@
       </nav>
     </div>
     <Nuxt />
-    <h2>reon kunishi.All rights reserved.</h2>
+    <div class="footer">
+      <h2>reon kunishi.All rights reserved.</h2>
+    </div>
   </div>
 </template>
