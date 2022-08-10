@@ -158,6 +158,17 @@
         </div>
 
         <div class="faq_contents_list">
+          <SlideUpDown question="Q 彼女・彼氏じゃダメなの？"
+            answer="<br>全然違う！！<br>彼女・彼氏は親愛・安心感を求めるのに対して、<br>ナビAIに求めるのは効率化・友達・秘書のような役割として求める。<br>求めるものが違うため両立する。<br>夫・妻がいても推しは別にいるというイメージ" />
+          <!--
+          <SlideUpDown question=" Q 参考作品を教えて" answer='<br>「SAOシリーズ」から<span class="hover1">"ユイ"</span><br>「アイアンマンシリーズ」から<span
+                    class="hover2">"ジャーヴィス"</span><br>「ガニメデの優しい巨人」から"ゾラック"<br>「Beatless」から<span
+                    class="hover3">"レイシア"</span>等<br><br>どの作品でも人間を手助けするAI、よきコンビとして描かれている' />
+
+          <SlideUpDown question="Q 要するに可愛いGoogleアシスタント？"
+            answer="<br>考え方は似ているもの。<br>Googleアシスタントは世界中の人々に馴染んでもらうために、あえて記号的なデザインにして個性を削っていると思われる。<br>私からすると愛着が持ちづらいから、もっと個性を付けたい<br>コンテンツ力の高い日本ならそういうことは得意と考えている" />
+-->
+          <!--
           <div class="faq_block">
             <div class="faq_text">
               <div class="faq_text_center">
@@ -208,9 +219,18 @@
               </div>
             </div>
           </div>
+                  -->
         </div>
       </div>
+
     </section>
 
   </main>
 </template>
+
+<script>
+import SlideUpDown from "~/components/SlideUpDown";
+export default {
+  components: { SlideUpDown }
+}
+</script>
