@@ -6,7 +6,7 @@
           <span class="main-text-sub">あなたの隣に這いよるナビAIを作る</span>
           AIエンジニア
         </h1>
-        <div>
+        <div class="main-image">
           <img src="~assets/images/index_main1.png" alt="" width="306" height="483">
         </div>
       </div>
@@ -184,7 +184,9 @@
             <div class="faq_text_sub">
               <div class="faq_text_sub_center">
                 <h4>
-                  <br>「SAOシリーズ」から"ユイ"<br>「アイアンマンシリーズ」から"ジャーヴィス"<br>「ガニメデの優しい巨人」から"ゾラック"<br>「Beatless」から"レイシア"等<br><br>どの作品でも人間を手助けするAI、よきコンビとして描かれている
+                  <br>「SAOシリーズ」から<span class="hover1">"ユイ"</span><br>「アイアンマンシリーズ」から<span
+                    class="hover2">"ジャーヴィス"</span><br>「ガニメデの優しい巨人」から"ゾラック"<br>「Beatless」から<span
+                    class="hover3">"レイシア"</span>等<br><br>どの作品でも人間を手助けするAI、よきコンビとして描かれている
                 </h4>
               </div>
             </div>

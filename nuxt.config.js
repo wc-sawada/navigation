@@ -36,9 +36,22 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'nuxt-webfontloader'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  //フォントの設定
+  webfontloader: {
+    custom: {
+      families: ['Noto+Sans+JP:wght@400;700'],
+      urls: [
+        // for each Google Fonts add url + options you want
+        // here add font-display option
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'
+      ]
+    }
   }
 }
