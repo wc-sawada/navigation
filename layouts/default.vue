@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="header">
-      <h1><a href="#"><img src="~assets/images/index_header.png" alt="">
-        </a></h1>
+      <div><a href="#"><img src="~assets/images/index_header.png" alt="UXDG研修">
+        </a></div>
       <nav class="header-cont">
         <ul>
           <li><a href="#why_ai">なぜAI</a></li>

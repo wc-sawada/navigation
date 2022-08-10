@@ -155,7 +155,7 @@ body {
 .work_block {
     width: 955px;
     height: 147px;
-    object-fit: cover;
+    border: 1px solid #e3e3e3;
     display: flex;
     margin: 0 auto;
     background-color: #fff;
@@ -212,6 +212,7 @@ body {
     width: 303px;
     height: 252px;
     display: flex;
+    border: 1px solid #e3e3e3;
     justify-content: space-evenly;
     flex-direction: column;
     background-color: #fff;
@@ -235,6 +236,7 @@ body {
 
 .faq_title_sub {
     font-size: 24px;
+    font-weight: bold;
     margin: 0 auto;
     text-align: center;
 }
@@ -306,6 +308,7 @@ body {
 
 .hover1 {
     position: relative;
+    cursor: pointer;
 }
 
 .hover1:after {
@@ -327,8 +330,14 @@ body {
     background-position: center top;
 }
 
+.hover1:hover {
+    font-weight: bold;
+    color: #ffba52;
+}
+
 .hover2 {
     position: relative;
+    cursor: pointer;
 }
 
 .hover2:after {
@@ -342,6 +351,11 @@ body {
     height: 300px;
 }
 
+.hover2:hover {
+    font-weight: bold;
+    color: #ffba52;
+}
+
 .hover2:hover:after {
     background: url(../images/index_faq2.jpg);
     /* 表示する画像 */
@@ -352,13 +366,19 @@ body {
 
 .hover3 {
     position: relative;
+    cursor: pointer;
+}
+
+.hover3:hover {
+    font-weight: bold;
+    color: #ffba52;
 }
 
 .hover3:after {
     content: "";
     position: absolute;
     top: 1em;
-    left: 350px;
+    left: 420px;
     display: inline-block;
     pointer-events: none;
     width: 400px;

@@ -151,7 +151,7 @@
     <section id="faq">
       <div class="faq_contents">
         <div>
-          <h3 class="faq_title_sub">FAQ</h3>
+          <div class="faq_title_sub">FAQ</div>
           <div class="contents_title">
             <h2>よくあるご質問</h2>
           </div>
