@@ -158,6 +158,8 @@
         </div>
 
         <div class="faq_contents_list">
+          <SlideUpDown question="Q 彼女・彼氏じゃダメなの？" answer="<br>全然違う！！<br>彼女・彼氏は親愛・安心感を求めるのに対して、<br>ナビAIに求めるのは効率化・友達・秘書のような役割として求める。<br>求めるものが違うため両立する。<br>夫・妻がいても推しは別にいるというイメージ" />
+      
           <div class="faq_block">
             <div class="faq_text">
               <div class="faq_text_center">
@@ -214,3 +216,11 @@
 
   </main>
 </template>
+<script>
+import SlideUpDown from '~/components/SlideUpDown'
+export default {
+  components: {
+    SlideUpDown
+  }
+}
+</script>
